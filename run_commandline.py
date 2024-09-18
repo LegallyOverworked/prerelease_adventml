@@ -5,7 +5,7 @@ import sys
 # Add the src directory to the Python path
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'src'))
 
-from embeddings.your_main_script_name import process_and_predict
+from embeddings.make_predictions import process_and_predict
 
 def main():
     parser = argparse.ArgumentParser(description="Generate embeddings and make predictions from FASTA file.")
